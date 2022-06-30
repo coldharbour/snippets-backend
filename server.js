@@ -35,6 +35,10 @@ app.post('/targetCategory', async (req, res) => {
     })
 })
 
+app.get('/', (req, res) => {
+    res.send('<h1>its not working for now</h1>')
+})
+
 
 
 //connect to our mongoDB with mongoose and env varaibles
